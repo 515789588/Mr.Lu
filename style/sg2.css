@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/*reset b*/
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select,div,a,li,dl,dt,dd { margin:0; padding:0; }
+em { font-style:normal; }
+ul,li { list-style-type: none; }
+a { text-decoration:none; }
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { outline:none; }
+textarea { resize:none; overflow:auto; }
+body { font-size:12px; font-family:"微软雅黑";}
+dl,dt,dd{list-style-type: none;}
+/*reset e*/
+
+
+
+
+
+
+/*public b*/
+.clear{zoom:1;}
+.clear:after{content: "";height: 0;clear: both;display: block;}
+.fl{float: left;}
+.fr{float: right;}
+.box{border: 1px solid #0c0c0e;background: #242a36;}
+
+.block1{width: 589px;float: left;margin-bottom: 6px;}
+.block2{width: 381px;float: right;margin-bottom: 6px;}
+
+
+.main{width: 980px;margin: 0 auto;}
+.top_title{border: 1px solid #484b58;border-bottom: 2px solid #121317;height: 37px;line-height: 37px;background: url(http://www.sgzb2.com/images/title_bg.png) 0 0 no-repeat;background-color: rgba(21,25,34,0.9);}
+.top_title .more{float: right;padding-right: 24px;color: #eee;background: url(http://www.sgzb2.com/images/title_bg.png) -11px -410px no-repeat;text-indent: 20px;}
+.top_title .othermore{float: right;font-size: 14px;font-weight: normal;padding-right: 4px;}
+.top_title .othermore .add_icon{float: right;width: 15px;height: 17px;background: url(http://www.sgzb2.com/images/title_bg.png) -11px -422px no-repeat;margin: 12px 9px 0 0;padding:0;}
+.top_title .othermore a{float: left;padding: 0 8px;color: #8e97a6;background: url(http://www.sgzb2.com/images/morebg.png) right center no-repeat;}
+.top_title .othermore a:hover,.top_title .othermore a.active{color:#fdd624;}
+.top_title .othermore a.last{background: none;}
+.content_box{padding: 14px 13px 24px 16px;}
+.content_box .imgtext {}
+.content_box .imgtext img{width: 224px;height: 126px;}
+.content_box .imgtext p{text-align: center;height: 25px;line-height: 25px;width: 224px;background: #1c2328;margin-top: 8px;}
+.content_box .imgtext p a{color: #ceaa11;}
+
+.content_box .article {padding-left: 239px;}
+.content_box .article h3{background: #151a25;text-indent: 15px;font-weight: normal;margin-bottom: 12px;color: #f2aa11;height: 26px;line-height: 26px;}
+.content_box .article p{font-size: 12px;color: #fff;height: 74px;line-height: 150%;padding: 0 10px;}
+.content_box .article a{color: #8e97a6; font-size: 12px; float: right;}
+
+.line_list{}
+.line_list li{font-size: 12px;height: 23px;line-height: 23px;overflow: hidden;vertical-align: middle;}
+
+.line_list li a{color: #fff;}
+.line_list li a:hover{color: #66c7f4;}
+
+.line_list .col_1{color: #929596;float: left;margin-right: 12px;}
+.line_list .col_2{color: #eeeeee;float: left;width: 220px;overflow: hidden;white-space: nowrap;text-overflow:ellipsis;}
+.line_list .col_3{color: #808364;float: right;} 
+
+
+
+/* .contTop .fr .news ul li {font-size: 12px;height: 24px;line-height: 24px;*margin-bottom: -4px;overflow: hidden;}
+.contTop .fr .news ul li em {float: right;color: #929596;}
+.contTop .fr .news ul li span {color: #929596;margin-right: 15px;float: left;}
+.contTop .fr .news ul li a {color:#eee;float: left;width:256px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis; }
+.contTop .fr .news ul li a:hover {color: #00baff;font-size: 14px;} */
+
+/*public e*/
+
+/*layout b*/
+.pagewrap{background: #000 url(http://www.sgzb2.com/images/wrapper.jpg) center top no-repeat;position: relative;}
+.header{background: url(http://www.sgzb2.com/images/top.jpg) top center no-repeat;}  
+.header .main{height: 300px;position: relative;}
+.header .game_exp{position: absolute;left: 24px;top: 75px;color: red;}
+.nva{height: 68px;position: relative;z-index: 1;opacity: 0.3}
+.nav .left_nav, .nav .right_nav {width: 360px;overflow: hidden;}
+.nav .left_nav ul, .nav .right_nav ul{width: 370px;}
+.nav .left_nav ul li, .nav .right_nav ul li{float: left;width: 114px;height: 66px;vertical-align: middle;text-align: center;}
+.nav .left_nav ul li a em, .nav .right_nav ul li a em {display: block;color: #116191;text-transform: uppercase;font-size: 12px;}
+.nav .left_nav ul li a, .nav .right_nav ul li a{display: block;height: 48px;padding-top: 18px;color: #eee;font-size: 14px;}
+.logo {position: absolute;left: 50%;top: 0;margin-left: -130px;}
+.body{position: relative;z-index: 4;}
+.body .main{background: url(http://www.sgzb2.com//images/main.jpg) center 0 no-repeat;}
+
+/*头上的一坨 b*/
+.contTop .fl {width: 591px;border-right: 1px solid #0b0b0e;}
+.contTop .fl .link {height: 125px;background: url(../images/link.jpg) 0 0 no-repeat;overflow: hidden;}
+.contTop .fl .link li{float: left;width: 109px;height: 125px;}
+.contTop .fl .link li a{display: block;height: 125px;background: url(http://www.sgzb2.com/images/link.jpg) no-repeat;}
+.contTop .fl .link .link1{width: 154px;}
+.contTop .fl .link .link1 a{width: 154px;background-position: 0 0px;}
+.contTop .fl .link .link2 a{background-position: -154px 0px;}
+.contTop .fl .link .link3 a{background-position: -263px 0px;}
+.contTop .fl .link .link4 a{background-position: -372px 0px;}
+.contTop .fl .link .link5 a{background-position: -481px 0px;}
+
+.contTop .fl .link .link1 a:hover {width: 154px;background-position: 0 -125px;}
+.contTop .fl .link .link2 a:hover {background-position: -154px -125px;}
+.contTop .fl .link .link3 a:hover {background-position: -263px -125px;}
+.contTop .fl .link .link4 a:hover {background-position: -372px -125px;}
+.contTop .fl .link .link5 a:hover {background-position: -481px -125px;}
+
+
+
+
+
+/* .contTop .fr .news .news-list {display: none;background-color: #4a4c4e;background-color: rgba(74,76,78,0.9);_background-color: #4a4c4e;border-left: 1px solid #666;border-right: 1px solid #666;padding: 11px 11px 13px 18px;height: 247px;}
+.contTop .fr .news .news-list .headline {height: 37px;line-height: 37px;background: #0f1318;text-align: center;margin-bottom: 18px;}
+.contTop .fr .news .news-list .headline a {color: #f2aa12;font-size: 14px;} */
+
+/* .contTop .fr .news ul li {font-size: 12px;height: 24px;line-height: 24px;*margin-bottom: -4px;overflow: hidden;}
+.contTop .fr .news ul li em {float: right;color: #929596;}
+.contTop .fr .news ul li span {color: #929596;margin-right: 15px;float: left;}
+.contTop .fr .news ul li a {color:#eee;float: left;width:256px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis; }
+.contTop .fr .news ul li a:hover {color: #00baff;font-size: 14px;} */
+
+
+
+
+
+
+
+
+
+.contTop .fl .banner{height: 317px;}
+.contTop .fl .banner .banner_img{width: 589px;height: 233px;border: 1px solid #1e191f;position: relative;overflow: hidden;}
+.contTop .fl .banner .banner_img .banner_flash{position: absolute;left: 0;top: 0;}
+.contTop .fl .banner .banner_img .banner_flash li{float: left;}
+.contTop .fl .banner .banner_img img{width: 589px;height: 233px;}
+
+.contTop .fl .banner .banner_img .banner_flash_btn{position: absolute;right: 10px;bottom: 10px;overflow: hidden;}
+.contTop .fl .banner .banner_img .banner_flash_btn li{width: 20px;height: 20px;line-height: 20px;text-align: center;float: left;margin-right: 4px;cursor: pointer;background: green;}
+.contTop .fl .banner .banner_img .banner_flash_btn li:hover{background: orange;}
+
+.contTop .fl .banner .banner_list{width: 589px;height: 80px;border: 1px solid #1e191f;}
+.contTop .fl .banner .banner_list ul li{padding: 5px;float: left;border: 1px solid #0b0b0e;background: #1a1720;overflow: hidden;}
+.contTop .fl .banner .banner_list .item{position: relative;}
+.contTop .fl .banner .banner_list .item .item_hover{position: absolute;left: 0;top: -75px;background: yellow;display: block;width: 70px;height: 70px;opacity: 0.6}
+.contTop .fl .banner .banner_list .item p{position: absolute;top: 0;left: 0;text-align: center;width: 65px;height: 65px;line-height: 65px;text-align: center;opacity: 1;background: yellow;display: block;}
+
+/*.contTop .fl .banner .banner_list .item:hover .item_hover{top: 0px;}
+.contTop .fl .banner .banner_list .item:hover .item_hover p{top: 30px;}*/
+.contTop .fl .banner .banner_list .item img{width: 65px;height: 65px;}
+.contTop .fl .banner .banner_list .morehero{width: 111px;height: 77px;background: url(http://www.sgzb2.com/images/morehero.jpg);text-indent: -9999px;}
+
+
+
+.contTop .fr{width: 388px;}
+.contTop .fr .login{height: 124px;background: url(http://www.sgzb2.com/images/userbg.png) 0 0 no-repeat;border-bottom: 1px solid #110f0f;}
+.contTop .fr .news{border: 1px solid #1e191f;}
+.contTop .fr .news .top_title{background-position: 0 -369px;
+position: relative;}
+.contTop .fr .news .content_box{background: #333;}
+.contTop .fr .news .content_box h3{height:32px;line-height: 32px;background:#0f1318;margin-bottom:20px;text-align: center;color: #ceaa11;}
+
+
+.contTop .fr .nologin{position: relative;}
+.contTop .fr .nologin .tips{height: 35px;line-height: 35px;color: #f9cb0d;text-align: right;padding-right: 20px;}
+.contTop .fr .nologin .user_img{width: 66px;height: 66px;position: absolute;left: 16px;top: 45px;}
+.contTop .fr .nologin .user_img img{width: 66px;height: 66px;}
+.contTop .fr .nologin .login_box{position: absolute;left: 104px;top: 37px;}
+
+.contTop .fr .nologin .login_box h3{font-size: 16px;color: #eee; font-weight: normal;}
+.contTop .fr .nologin .login_box p{font-size: 14px;color: #07aae7; font-weight: normal;}
+.contTop .fr .nologin .login_box .login_btn,.contTop .fr .nologin .login_box .shop_btn{display: inline-block;width: 129px;height: 39px;margin: 3px 10px 0 0;text-indent: -9999px;}
+.contTop .fr .nologin .login_box .login_btn{background: url(http://www.sgzb2.com/images/login-but.gif) no-repeat 0 0;}
+.contTop .fr .nologin .login_box .shop_btn{background: url(http://www.sgzb2.com/images/login-shop.gif) no-repeat 0 0;}
+.contTop .fr .nologin .login_box .login_btn:hover{background-position: 0 -39px;}
+.contTop .fr .nologin .login_box .shop_btn:hover{background-position: 0 -38px;}
+/*头上的一坨 e*/
+
+
+
+.advbox{ margin:  6px auto;height: 100px;}
+.advbox ul li{float: left;border: 1px solid #000;width: 243px;}
+.mainblock{}
+
+/*视频 b*/
+.video{}
+.video .line_list .col_2{width: 230px;}
+/*视频 e*/
+/*直播 b*/
+.live{position: relative;}
+.live .top_title{background-position: 0 -328px;}
+.live .content_box{height:141px;padding: 14px 13px 24px 16px;text-align:center;}
+.live .content_box img{display: block;}
+.live .livebox_bottom{height: 20px;line-height: 20px;background: #19191f;}
+.live .livebox_bottom .fl{color: #ceaa11;;margin-left: 20px;text-indent: 20px;background: url(http://www.sgzb2.com/images/jt.gif) no-repeat left center;}
+.live .livebox_bottom .fr{margin-right: 20px; color:#a3a3a3; }
+.live .livebox_bottom a:hover{text-decoration: underline;}
+/*直播 e*/
+/*玩家 b*/
+.player .top_title{background-position: 0 -82px;}
+.player .addi, .listen .addi{height: 72px; background: #424246;text-align: center;}
+.player .addi dl, .listen .addi dl{padding: 10px 0 14px 19px;}
+.player .addi dl dd, .listen .addi dl dd{float: left;font-size: 12px;width: 274px;height: 24px;line-height: 24px;}
+.player .addi dl dd span, .listen .addi dl dd span{color: #c9c9c9;margin-right: 4px;}
+.player .addi dl dd a, .listen .addi dl dd a{color: #c9c9c9;}
+.player .addi dl dd a:hover, .listen .addi dl dd a:hover{color: #66c7f4;}
+/*玩家 e*/
+
+
+.raider{}
+.raider .top_title{background-position: 0 -41px;}
+.raider .content_box{height: 216px;padding-bottom: 8px;}
+.media .top_title{background-position: 0 -123px;}
+.media .line_list .col_2{width: 260px;padding-right: 26px;}
+.picture .top_title{background-position: 0 -287px;}
+
+.picture .content_box{width: 254px;height: 143px;margin: 0 auto;padding-top: 30px;}
+.listen .top_title{background-position: 0 -164px;}
+.cooper .top_title{background-position: 0 -246px;}
+.cooper .gundong_box{width:300px;height:196px;border:2px solid red;margin:0 auto;position: relative;overflow: hidden;}
+.cooper .gundong_box ul{}
+.cooper .gundong_box ul li{}
+.cooper .gundong_box ul li img{width: 300px;height: 196px;}
+.cooper .gundong_box ul li a{}
+
+.kf{width: 100%;float:none;clear: both;height: 170px;color: #fff;}
+.kf .kf_box{padding: 20px 0 10px 25px;}
+.kf .kf_box p{float: left;width: 300px;height: 48px;line-height: 48px;margin-right: 12px;background: url(http://www.sgzb2.com/images/kf_bg2_0.png);}
+.kf .kf_box p i{float: left;width: 48px;height: 48px;margin-right: 10px;background: url(http://www.sgzb2.com/images/kf_icon.gif) no-repeat;}
+
+.kf .kf_box .kfcont1 i{ background-position: center 8px;}
+.kf .kf_box .kfcont2 i{ background-position: center -43px;}
+.kf .kf_box .kfcont3 i{ background-position: center -91px;}
+.kf .kf_box1{text-align: center;width: 570px;margin: 0 auto;}
+.kf .kf_box1 span{float: left;text-indent: 24px;margin-right: 20px;font-size: 14px;}
+.kf .kf_box1 .adress{background: url(http://www.sgzb2.com/images/adressbg.png) no-repeat left center;}
+.kf .kf_box1 .phone{background: url(http://www.sgzb2.com/images/phonebg.png) no-repeat left center;}
+
+.green_game{width: 910px; height: 70px; margin: 0 auto; margin-top: 150px; color: #fff; font-size: 14px; z-index: 4;background: } 
+.green_game span{display: block;background: url("http://www.sgzb2.com/images/green_game_tit.png") no-repeat;width: 113px;height: 23px;line-height: 23px;text-align: center;float: left;font-size: 14px;font-weight: bolder;}
+.green_game p{width: 790px;float: right;color: #514537;line-height: 23px;}
+.foot{position: absolute; bottom: 0px; height: 400px; width: 100%; background: url(http://www.sgzb2.com/images/wrapper_foot.jpg) center top no-repeat;} 
+.footer{background: #0b0c0d; color: #61686f; height: 190px; font-family: Microsoft Yahei,Arial,Helvetica,sans-serif;text-align: center;padding-top: 50px;}
+.footer p{height: 30px;line-height: 30px;}
+.footer div{padding: 20px;width: 500px;margin: 0 auto;}
+.footer div a{padding: 20px;}
+/*layout e*/

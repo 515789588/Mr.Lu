@@ -1,0 +1,216 @@
+
+/* #nav,header,#contenter,#footer,#scroll,#focu{
+	
+	margin: 0 auto;
+} */
+
+
+
+
+.lovecontent{
+	background: #fff;
+	width: 1000px;height: 370px;
+	margin-top: 20px;
+	border-radius: 5px;
+	
+}
+
+.lovecontent .pic1{
+	width: 260px;
+	height: 300px;
+	background: #eee;
+	float: left;
+	margin: 30px 0 20px 55px;
+	text-align: center;
+	transition: all 600ms ease-in;
+
+}
+.lovecontent .pic1:hover{
+	background: #019875;
+	
+}
+.lovecontent .pic1:hover p{
+	color: #fff;
+	font-size: 15px;
+}
+.lovecontent .pic1 img{
+	width: 220px;
+	height: 250px;
+	margin-top: 15px;
+
+} 
+.lovecontent .pic1 p{
+	transition: all 400ms ease-in;
+	color: #019875;
+	font-size: 14px;
+}
+
+
+#webskill #hobyTag{
+	height: 40px;
+	border-bottom: 1px solid #eee;
+}
+#webskill #hobyTag li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #fff;
+}
+#webskill #hobyTag li.active{
+	
+	border: 1px solid #ddd;
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+
+}
+#webskill #ctagBox{
+	width: 1000px;
+	position: relative;
+
+}
+#webskill #ctagBox .cTag{
+	position: absolute;
+	width: 950px;
+	height: 200px;
+	left: 0;
+	top: 0;
+	padding: 25px;
+	display: none;
+	border: 1px solid #ddd;
+	border-top: none;
+	border-radius: 0 0 6px 6px;
+	font-size: 14px;
+	line-height: 40px;
+}
+#webskill #ctagBox .cTag p{
+	width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 60px;
+	line-height: 30px;
+}
+.show{display: block;}
+.hide{display: none;}
+.loveTravel{
+	width: 1000px;
+	height: 500px;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.loveTravel ul.slider{
+
+}
+.loveTravel ul.slider li{
+	width: 1000px;
+	height: 500px;
+
+	overflow: hidden;
+
+}
+.loveTravel ul.slider img{width: 1000px;height: 500px;}
+.loveTravel ul.num{
+	position: absolute;
+	right: 15px;
+	bottom: 5px;
+	
+}
+.loveTravel ul.num li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	margin: 0 2px;
+	border: 1px solid #eee;
+	background: #fff;
+}
+.loveTravel ul.num li.on{
+	width: 16px;
+	height: 16px;
+	background: #019875;
+	border: 0;
+}
+
+
+
+.scrollbox{width: 1000px;height: 420px;border: 2px solid #ccc;margin-top: 20px;}
+.scrollbox ul{}
+.scrollbox ul li{float: left;padding: 10px;}
+.scrollbox ul li a{}
+.scrollbox ul li a img{width: 312px;height: 400px;}
+
+
+.publiu{}
+
+.scrollbox{
+	background: #fff;
+	width: 1000px;height: 340px;
+	margin-top: 20px;
+	border-radius: 5px;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.scrollbox .scroll_list{position: absolute;left: 0;top: 0;}
+
+.scrollbox .pic1{
+	width: 292px;
+	height: 300px;
+	background: #eee;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	transition: all 600ms ease-in;
+}
+
+.scrollbox .pic1:hover{
+	background: #019875;
+	
+}
+.scrollbox .pic1:hover p{
+	color: #fff;
+	font-size: 15px;
+}
+.scrollbox .pic1 img{
+	width: 260px;
+	height: 250px;
+	margin-top: 15px;
+
+} 
+.scrollbox .pic1 p{
+	transition: all 400ms ease-in;
+	color: #019875;
+	font-size: 14px;
+	height: 44px;
+	line-height: 44px;
+}
+
+.jianli{
+	font-size: 14px;line-height: 2em;
+}
+.jianli p{padding: 0 40px;}
+.jianli p strong{font-size: 24px;color: #019875;font-weight: bold;}
+.jianli .chance{text-align: center;padding: 50px 0;}
+.jianli .chance a{display: inline-block;width: 200px;height: 50px;line-height: 50px;background: #019875;margin-right: 20px;font-size: 24px;color: #fff;border-radius: 6px;box-shadow: 0 0 2px #ccc;}
+.jianli .chance a:hover{background: #fff;border: 2px solid #eee;width: 196px;height: 46px;line-height: 46px;color:#019875; }
+
+
+.jianli .infos{padding: 20px;display: none;}
+
+.jianli .infos .myphoto {padding:4px;border: 2px solid #ccc;box-shadow: 0 0 5px #eee;margin: 20px 50px;}
+.jianli .infos .myphoto img{width: 300px;height: 400px;}
+.jianli .infos .mymsg{width: 500px;padding-top: 20px;line-height: 34px;}
+
+.contact{font-size: 14px;}
+.contact .tel{padding-left: 50px;width: 300px;margin-right: 100px;}
+.contact .tel ul{}
+.contact .tel ul li{height: 36px;line-height: 36px;}
+.contact .tel ul li span{display: inline-block;width: 50px;margin-right: 20px;}
+
+.contact .teltext{border: 2px solid #ccc;}
+
